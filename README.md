@@ -37,13 +37,13 @@ E. Execute sample queries run curl -H "Content-Type: application/json" -d '{"tex
 
 **Event Training Data**
  1. eventTime : String
-    2. entityId: GUID
-    3. event : String
-    4  properties
-        * Query: String,
-        * Category: String,
-        * Locale: String
-    5. entityType: String
+ 2. entityId: GUID
+ 3. event : String
+ 4. properties
+      * Query: String,
+      * Category: String,
+      * Locale: String
+ 5. entityType: String
 
 <h2> Conclusion </h2>
 
