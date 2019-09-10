@@ -35,6 +35,8 @@ E. Execute sample queries run curl -H "Content-Type: application/json" -d '{"tex
 
 **Event data requirements**
 
+Please ensure to read this document - https://predictionio.apache.org/
+
 **Event Training Data**
  1. eventTime : String
  2. entityId: GUID
@@ -46,6 +48,7 @@ E. Execute sample queries run curl -H "Content-Type: application/json" -d '{"tex
  5. entityType: String
 
 <h2> Conclusion </h2>
+We have proposed algorithm in the paper is implemented using decision tree to classify the multi label text data further to rank the data according the user queries. We were able to match the time complexities of the highly developed algorithms like ADABoost and ADTBoost.
 
 
 
