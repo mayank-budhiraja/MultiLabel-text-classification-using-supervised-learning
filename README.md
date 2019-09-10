@@ -42,8 +42,8 @@ Please ensure to read this document - https://predictionio.apache.org/
  2. entityId: GUID
  3. event : String
  4. properties
-      * Query: String,
-      * Category: String,
+      * Query: String
+      * Category: String
       * Locale: String
  5. entityType: String
 
